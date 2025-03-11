@@ -18,13 +18,18 @@ This repository contains the source code and deployment setup for my personal po
 🚀 Deployment Process
 
 1️⃣ Clone the Repository
+
  git clone [GitHub Repository Link Here]
+ 
 cd portfolio-website
 
 
 2️⃣ Setup AWS S3 Bucket
+
 Create an S3 bucket (example: vikas-portfolio-website1)
+
 Enable Static Website Hosting
+
 Set Public Read Access with this policy:
 {
     "Version": "2012-10-17",
@@ -40,6 +45,7 @@ Set Public Read Access with this policy:
 }
 
 3️⃣ Setup GitHub Actions CI/CD
+
 Go to GitHub Repository → Settings → Secrets
 
 Add AWS Credentials:
