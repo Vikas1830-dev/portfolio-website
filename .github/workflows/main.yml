@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://your-portfolio-website --delete
+          aws s3 sync . s3://vikas-portfolio-website1 --delete
