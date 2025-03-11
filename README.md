@@ -31,6 +31,8 @@ Create an S3 bucket (example: vikas-portfolio-website1)
 Enable Static Website Hosting
 
 Set Public Read Access with this policy:
+
+
 {
     "Version": "2012-10-17",
     "Statement": [
